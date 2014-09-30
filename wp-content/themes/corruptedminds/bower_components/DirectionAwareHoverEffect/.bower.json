@@ -1,0 +1,14 @@
+{
+  "name": "DirectionAwareHoverEffect",
+  "homepage": "https://github.com/codrops/DirectionAwareHoverEffect",
+  "_release": "f28caaf218",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f28caaf2181a89c92b3a745001247c88c2650d64"
+  },
+  "_source": "git://github.com/codrops/DirectionAwareHoverEffect.git",
+  "_target": "*",
+  "_originalSource": "codrops/DirectionAwareHoverEffect",
+  "_direct": true
+}
