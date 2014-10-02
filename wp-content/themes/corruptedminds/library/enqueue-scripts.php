@@ -15,6 +15,7 @@ if (!function_exists('FoundationPress_scripts')) :
     wp_register_script( 'isotope', get_template_directory_uri() . '/js/isotope/dist/isotope.pkgd.js', array(), '1.0.0', false );
     wp_register_script( 'hoverdir', get_template_directory_uri() . '/js/DirectionAwareHoverEffect/js/jquery.hoverdir.js', array(), '1.0.0', false );
     wp_register_script( 'slick', get_template_directory_uri() . '/js/slick/dist/slick.min.js', array(), '1.0.0', false );
+    wp_register_script( 'backstretch', get_template_directory_uri() . '/js/jquery-backstretch/jquery.backstretch.min.js', array(), '1.0.0', false );
     
 
     // enqueue scripts
@@ -26,6 +27,7 @@ if (!function_exists('FoundationPress_scripts')) :
     wp_enqueue_script('isotope');
     wp_enqueue_script('hoverdir');
     wp_enqueue_script('slick');
+    wp_enqueue_script('backstretch');
 
     wp_enqueue_style( 'google-fonts', 'http://fonts.googleapis.com/css?family=Abel');
     
