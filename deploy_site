@@ -1,0 +1,5 @@
+#!/bin/bash
+# rsync script
+
+echo -e "> Syncing corrupted minds!"
+rsync -vaz --delete * 2663765@aruba.it@ftp.ericantonello.com:~/ftp.ericantonello.com
