@@ -5,7 +5,29 @@ d.css("height",h)}else{var i=Math.min.apply(null,g);d.css("height",i)}e.after_he
 $("#second-tab").backstretch("wp-content/themes/corruptedminds/assets/img/images/tabs/3.jpg");
 $("#third-tab").backstretch("wp-content/themes/corruptedminds/assets/img/images/tabs/2.jpg");
 $("#fourth-tab").backstretch("wp-content/themes/corruptedminds/assets/img/images/tabs/4.jpg");
-$("#sixth-tab").backstretch("wp-content/themes/corruptedminds/assets/img/images/tabs/2.jpg");;jQuery(document).foundation();;$(function() {
+$("#sixth-tab").backstretch("wp-content/themes/corruptedminds/assets/img/images/tabs/2.jpg");;$(document).ready(function() {
+
+    /*	CarouFredSel: a circular, responsive jQuery carousel.
+     Configuration created by the "Configuration Robot"
+     at caroufredsel.dev7studios.com
+     */
+    $("#news").carouFredSel({
+        width	: "100%",
+        scroll	: 2,
+        auto 	: false,
+        prev	: {
+            button	: "#prev_btn",
+            key		: "left"
+        },
+        next	: {
+            button	: "#next_btn",
+            key		: "right"
+        }
+    });
+
+});
+
+;jQuery(document).foundation();;$(function() {
 	$('.media-element').each( function() { $(this).hoverdir(); } );
 });;var $container = $('#media');
 // init

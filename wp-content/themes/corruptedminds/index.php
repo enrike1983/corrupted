@@ -3,32 +3,108 @@
 	<h1 id="one"></h1>
 	<div id="logo" data-0="top:60px; opacity:1;" data-500="top:0px;opacity:0;"> </div>
 </div>
-<div id="second-tab" class="row tab second-tab">
-	<?php echo do_shortcode('[wonderplugin_audio id="1"]'); ?>
+ <div id="second-tab" class="row tab second-tab">
 	<div class="padded-content">
 		<h2 id="two">NEWS</h2>
-		<div class="spacer"></div>			
+		<div class="spacer"></div>
+        <div id="prev_btn">prev</div>
 		<div id="news">
-			<div class="single-news"></div>
-			<div class="single-news"></div>
-			<div class="single-news"></div>
-			<div class="single-news"></div>
-			<div class="single-news"></div>
-			<div class="single-news"></div>
-			<div class="single-news"></div>
-			<div class="single-news"></div>									
-		</div>		
+			<div class="single-news">
+                <div class="news-thumb">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/images/media/gig1.jpg" />
+                </div>
+                <div class="news-info">
+                    <h1>Titolo di una news</h1>
+                    <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                    <div class="news-date">
+                        10.10.2014
+                    </div>
+                </div>
+			</div>
+            <div class="single-news">
+                <div class="news-thumb">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/images/media/gig4.jpg" />
+                </div>
+                <div class="news-info">
+                    <h1>Titolo di una news</h1>
+                    <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                    <div class="news-date">
+                        10.10.2014
+                    </div>
+                </div>
+            </div>
+            <div class="single-news">
+                <div class="news-thumb">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/images/media/gig3.jpg" />
+                </div>
+                <div class="news-info">
+                    <h1>Titolo di una news</h1>
+                    <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                    <div class="news-date">
+                        10.10.2014
+                    </div>
+                </div>
+            </div>
+            <div class="single-news">
+                <div class="news-thumb">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/images/media/gig4.jpg" />
+                </div>
+                <div class="news-info">
+                    <h1>Titolo di una news</h1>
+                    <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                    <div class="news-date">
+                        10.10.2014
+                    </div>
+                </div>
+            </div>
+            <div class="single-news">
+                <div class="news-thumb">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/images/media/gig1.jpg" />
+                </div>
+                <div class="news-info">
+                    <h1>Titolo di una news</h1>
+                    <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                    <div class="news-date">
+                        10.10.2014
+                    </div>
+                </div>
+            </div>
+            <div class="single-news">
+                <div class="news-thumb">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/images/media/gig2.jpg" />
+                </div>
+                <div class="news-info">
+                    <h1>Titolo di una news</h1>
+                    <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                    <div class="news-date">
+                        10.10.2014
+                    </div>
+                </div>
+            </div>
+            <div class="single-news">
+                <div class="news-thumb">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/images/media/gig3.jpg" />
+                </div>
+                <div class="news-info">
+                    <h1>Titolo di una news</h1>
+                    <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                    <div class="news-date">
+                        10.10.2014
+                    </div>
+                </div>
+            </div>
+		</div>
+        <div id="next_btn">next</div>
 	</div>
 </div>
 <div id="third-tab" class="row tab auto-resize third-tab">
-  	<h2 id="three">ABOUT</h2>
-  	<div class="spacer"></div>
-  	<div class="large-6 columns padded-column">
-  	</div>
-  	<div class="large-6 columns padded-column">
-		<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-		<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-  	</div>
+    <div class="padded-content">
+        <?php echo do_shortcode('[wonderplugin_audio id="1"]'); ?>
+        <h2 id="three">ABOUT</h2>
+        <div class="spacer"></div>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+    </div>
 </div>
 <div id="fourth-tab" class="row tab fourth-tab auto-resize">
 	<div class="padded-content">
