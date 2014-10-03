@@ -35,17 +35,231 @@
 		<h2 id="four">TOUR DATES</h2>
 		<div class="spacer"></div>
 		<ul class="gigs small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-		  <li>Concerto prova<br>Ottobre 2015</li>
-		  <li>Concerto prova<br>Ottobre 2015</li>
-		  <li>Concerto prova<br>Ottobre 2015</li>
-		  <li>Concerto prova<br>Ottobre 2015</li>
-		  <li>Concerto prova<br>Ottobre 2015</li>
-		  <li>Concerto prova<br>Ottobre 2015</li>
-		  <li>Concerto prova<br>Ottobre 2015</li>
-		  <li>Concerto prova<br>Ottobre 2015</li>
-		  <li>Concerto prova<br>Ottobre 2015</li>
-		  <li>Concerto prova<br>Ottobre 2015</li>
-		  <li>Concerto prova<br>Ottobre 2015</li>		  		  
+		  <li>
+              <div class="date-box">
+                  <div class="info">
+                      <div class="date">
+                          <div class="day">
+                              10
+                          </div>
+                          <div class="month">
+                              02
+                          </div>
+                          <div class="year">
+                              2014
+                          </div>
+                      </div>
+                  </div>
+                  <div class="info">
+                      <div class="city">
+                            Milano
+                      </div>
+                      <div class="place">
+                            <div class="ico"></div>
+                            Alkatraz
+                      </div>
+                  </div>
+                  <div class="info">
+                      <div class="time">
+                            21.00h
+                      </div>
+                  </div>
+                  <div class="clear"></div>
+              </div>
+		  </li>
+            <li>
+                <div class="date-box">
+                    <div class="info">
+                        <div class="date">
+                            <div class="day">
+                                10
+                            </div>
+                            <div class="month">
+                                02
+                            </div>
+                            <div class="year">
+                                2014
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="city">
+                            Milano
+                        </div>
+                        <div class="place">
+                            <div class="ico"></div>
+                            Alkatraz
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="time">
+                            21.00h
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <div class="date-box">
+                    <div class="info">
+                        <div class="date">
+                            <div class="day">
+                                10
+                            </div>
+                            <div class="month">
+                                02
+                            </div>
+                            <div class="year">
+                                2014
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="city">
+                            Milano
+                        </div>
+                        <div class="place">
+                            <div class="ico"></div>
+                            Alkatraz
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="time">
+                            21.00h
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <div class="date-box">
+                    <div class="info">
+                        <div class="date">
+                            <div class="day">
+                                10
+                            </div>
+                            <div class="month">
+                                02
+                            </div>
+                            <div class="year">
+                                2014
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="city">
+                            Milano
+                        </div>
+                        <div class="place">
+                            <div class="ico"></div>
+                            Alkatraz
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="time">
+                            21.00h
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <div class="date-box">
+                    <div class="info">
+                        <div class="date">
+                            <div class="day">
+                                10
+                            </div>
+                            <div class="month">
+                                02
+                            </div>
+                            <div class="year">
+                                2014
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="city">
+                            Milano
+                        </div>
+                        <div class="place">
+                            <div class="ico"></div>
+                            Alkatraz
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="time">
+                            21.00h
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <div class="date-box">
+                    <div class="info">
+                        <div class="date">
+                            <div class="day">
+                                10
+                            </div>
+                            <div class="month">
+                                02
+                            </div>
+                            <div class="year">
+                                2014
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="city">
+                            Milano
+                        </div>
+                        <div class="place">
+                            <div class="ico"></div>
+                            Alkatraz
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="time">
+                            21.00h
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+          <li>
+              <div class="date-box">
+                  <div class="info">
+                      <div class="date">
+                          <div class="day">
+                              10
+                          </div>
+                          <div class="month">
+                              02
+                          </div>
+                          <div class="year">
+                              2014
+                          </div>
+                      </div>
+                  </div>
+                  <div class="info">
+                      <div class="city">
+                          Milano
+                      </div>
+                      <div class="place">
+                          <div class="ico"></div>
+                          Alkatraz
+                      </div>
+                  </div>
+                  <div class="info">
+                      <div class="time">
+                          21.00h
+                      </div>
+                  </div>
+                  <div class="clear"></div>
+              </div>
+          </li>
+
 		</ul>
 	</div>
 </div>

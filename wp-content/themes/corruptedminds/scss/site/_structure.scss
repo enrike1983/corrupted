@@ -272,6 +272,68 @@ body {
 		} 				
 	}
 
+    .date-box {
+        margin-bottom: 12px;
+        .date {
+            width: 65px;
+            height: 80px;
+            background: #c3121c;
+            color: #fff;
+            text-align: center;
+            padding-left: 0;
+            float: left;
+            position: relative;
+        }
+        .day {
+            font-size: 30px;
+            line-height: 25px;
+            padding-top: 9px;
+            position: relative;
+        }
+        .month {
+            font-size: 17px;
+        }
+        .year {
+            font-size: 12px;
+        }
+        .info {
+            float: left;
+            text-align: left;
+            padding-left: 10px;
+            color: #bbb;
+            max-width: 170px;
+            overflow: hidden;
+            font-size: 14px;
+            position: relative;
+        }
+        .city {
+            font-size: 20px;
+            color: #fff;
+            position: relative;
+        }
+        .place {
+            padding-left: 20px;
+            margin-top: 16px;
+            position: relative;
+        }
+        .time {
+            margin-top: 6px;
+            padding-left: 20px;
+        }
+        .ico {
+          background: url("../assets/img/icons/dates-icons.png") no-repeat;
+          width: 15px;
+          height: 15px;
+          position: absolute;
+          top: 2px;
+          left: 0;
+        }
+
+        .clear {
+          clear: both;
+        }
+    }
+
 	.top-bar-container, .tab-bar {
 		margin-bottom: 0px;
 		background: black;
