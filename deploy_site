@@ -1,5 +1,23 @@
 #!/bin/bash
-# rsync script
+# ftp sync script
 
-echo -e "> Syncing corrupted minds!"
-rsync -vaz --delete * 2663765@aruba.it@ftp.ericantonello.com:~/ftp.ericantonello.com
+
+Server="ftp.ericantonello.com"
+Directory="/ericantonello.com"
+
+User = $1
+Password = $2
+
+ftp -n $Server <<End-Of-Session
+# -n option disables auto-logon
+
+user $1 $2       #  If this doesn't work, then try:
+                                 #  quote user anonymous "$Password"
+binary
+bell                             # Ring 'bell' after each file transfer.
+cd $Directory
+put *
+bye
+End-Of-Session
+
+exit 0
