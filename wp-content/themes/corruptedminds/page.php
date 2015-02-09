@@ -34,7 +34,14 @@
 </div>
 <div id="sixth-tab" class="row tab sixth-tab">
 	<div class="padded-content">
-		<h2 id="six">CONTACTS</h2>
+		<h2 id="six">VIDEOS</h2>
+		<div class="spacer"></div>
+		<?php get_template_part('parts/videos')?>
+	</div>
+</div>
+<div id="seventh-tab" class="row tab seventh-tab">
+	<div class="padded-content">
+		<h2 id="seven">CONTACTS</h2>
 		<div class="spacer"></div>
 		<?php get_template_part('parts/contacts')?>
 	</div>

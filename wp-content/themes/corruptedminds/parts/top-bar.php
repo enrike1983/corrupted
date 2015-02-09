@@ -6,8 +6,9 @@
               <li><a href="#two">NEWS</a></li>
               <li><a href="#three">ABOUT</a></li>
               <li><a href="#four">TOUR DATES</a></li>
-              <li><a href="#five">MEDIA</a></li>
-              <li><a href="#six">CONTACTS</a></li>
+              <li><a href="#five">PICS</a></li>
+              <li><a href="#six">VIDEOS</a></li>
+              <li><a href="#seven">CONTACTS</a></li>
             </ul>
             <ul class="right">
               <li><a target="_blank" class="social-icon" href="https://soundcloud.com/corrupted-minds-1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/soundcloud.png" /></a></li>

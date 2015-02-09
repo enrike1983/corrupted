@@ -5,7 +5,7 @@ d.css("height",h)}else{var i=Math.min.apply(null,g);d.css("height",i)}e.after_he
 $("#second-tab").backstretch("wp-content/themes/corruptedminds/assets/img/images/tabs/3.jpg");
 $("#third-tab").backstretch("wp-content/themes/corruptedminds/assets/img/images/tabs/2.jpg");
 $("#fourth-tab").backstretch("wp-content/themes/corruptedminds/assets/img/images/tabs/4.jpg");
-$("#sixth-tab").backstretch("wp-content/themes/corruptedminds/assets/img/images/tabs/2.jpg");;$(document).ready(function() {
+$("#seventh-tab").backstretch("wp-content/themes/corruptedminds/assets/img/images/tabs/2.jpg");;$(document).ready(function() {
 
     /*	CarouFredSel: a circular, responsive jQuery carousel.
      Configuration created by the "Configuration Robot"
