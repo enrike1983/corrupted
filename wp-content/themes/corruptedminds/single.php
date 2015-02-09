@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-<div class="row">
-	
+<div class="row single-content">
+
 	<div class="small-12 large-8 columns" role="main">
 
 	<?php do_action('foundationPress_before_content'); ?>
@@ -9,7 +9,6 @@
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			<header>
 				<h1 class="entry-title"><?php the_title(); ?></h1>
-				<?php FoundationPress_entry_meta(); ?>
 			</header>
 			<?php do_action('foundationPress_post_before_entry_content'); ?>
 			<div class="entry-content">
@@ -33,10 +32,10 @@
 			<?php do_action('foundationPress_post_after_comments'); ?>
 		</article>
 	<?php endwhile;?>
+	<?php FoundationPress_entry_meta(); ?>
 
 	<?php do_action('foundationPress_after_content'); ?>
 
 	</div>
-	<?php get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>

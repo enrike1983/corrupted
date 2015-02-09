@@ -1,0 +1,37 @@
+DB_HOST = localhost
+DB_USER = root
+DB_NAME = corruptedminds
+DUMP_NAME = corruptedminds_local.sql
+LOCAL_VHOST=localhost/corrupted
+REMOTE_VHOST=www.ericantonello.com
+REMOTE_DB_USER = Sql790109
+REMOTE_DB_NAME = Sql790109_1
+REMOTE_DB_HOST = 62.149.150.223
+REMOTE_DB_PW = 8s7lvo8vns
+
+drop-db:
+	 mysqladmin -u ${DB_USER} -p drop ${DB_NAME}
+
+create-db:
+	echo "create database ${DB_NAME}" | mysql -u ${DB_USER} -p
+	
+import-db:
+	mysql -u ${DB_USER} -p -h ${DB_HOST} ${DB_NAME} < ${DUMP_NAME}
+
+#dumpa il db corrente
+dump:
+	mysqldump -u ${DB_USER} -p -h ${DB_HOST} ${DB_NAME} > ${DUMP_NAME}
+
+#prepara i link con il remote vhost
+prepare-for-deploy:
+	sed -i '' 's|${LOCAL_VHOST}|${REMOTE_VHOST}|g;' ${DUMP_NAME}
+
+deploy-db:
+	mysql -u ${REMOTE_DB_USER} -p -h ${REMOTE_DB_HOST} ${REMOTE_DB_NAME} < ${DUMP_NAME}
+
+#sostituisce il db con quello attualmente dumpato
+import:
+	drop-db create-db import-db
+
+
+
