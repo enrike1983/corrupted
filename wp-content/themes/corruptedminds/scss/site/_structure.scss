@@ -202,6 +202,16 @@ body {
 	  }
 	}
 
+	#cboxLoadedContent {
+	  background-color: black !important;
+	  color: #cecece !important;
+	  padding: 10px;
+	}
+
+  	#cboxContent {
+	  background-color: black !important;
+	}
+
   	.gallery-title {
 	  	font-family: 'Abel', sans-serif;
 	  	color: #fff;
@@ -286,7 +296,7 @@ body {
 			/*background-image:url('../assets/img/images/tabs/4.jpg');*/
 			background-position-x: center;
 			background-position-y:0%;			
-		} 			
+		}
 		&.fifth-tab {
 			background-color: black;
 		} 				
@@ -492,6 +502,8 @@ body {
             left: 20px;
           }
         }
+
+
       }
     }
 

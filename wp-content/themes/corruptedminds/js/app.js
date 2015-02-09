@@ -51,8 +51,10 @@ function setHeight() {
 	$('.auto-resize').each(function( index ) {
 	  $( this ).css('height', $(window).height());  
 	});
-};$(function() { 
-  $('a[href*=#]:not([href=#])').click(function() {
+}
+
+$(".inline").colorbox({inline:true, width:"50%"});;$(function() { 
+  $('.title-area > li a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 
       var target = $(this.hash);

@@ -11,3 +11,5 @@ function setHeight() {
 	  $( this ).css('height', $(window).height());  
 	});
 }
+
+$(".inline").colorbox({inline:true, width:"50%"});

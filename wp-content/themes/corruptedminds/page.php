@@ -2,7 +2,7 @@
 <div id="first-tab" data-bottom-top="background-position-y:0%;" data-top-bottom="background-position-y:100%" class="row tab auto-resize first-tab">
 	<h1 id="one"></h1>
 	<div id="logo" data-0="top:60px; opacity:1;" data-500="top:0px;opacity:0;"> </div>
-	<?php echo do_shortcode('[wonderplugin_audio id="1"]'); ?>
+	<?php //echo do_shortcode('[wonderplugin_audio id="1"]'); ?>
 </div>
 <div id="second-tab" class="row tab second-tab">
 	<div class="padded-content">
